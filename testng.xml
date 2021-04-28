@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Google Search with different keywords" thread-count="4">
+
+<listeners>
+<listener class-name="listeners.Listeners"/>
+</listeners>
+    <test name="Page Object Model using By and TestNG Parallel Execution" parallel="methods">
+         <classes>
+             <class name="quickstart.Tests.DemoTest"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->

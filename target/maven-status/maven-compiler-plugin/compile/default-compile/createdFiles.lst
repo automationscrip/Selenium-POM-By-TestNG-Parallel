@@ -1,0 +1,6 @@
+quickstart\Pages\GoogleSearchPage.class
+functionLibrary\TestData.class
+quickstart\Pages\GoogleSearchResultPage.class
+Constants\TimeOuts.class
+functionLibrary\ReportLog.class
+functionLibrary\Utilities.class

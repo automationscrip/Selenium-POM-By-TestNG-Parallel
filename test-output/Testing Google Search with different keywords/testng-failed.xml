@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Testing Google Search with different keywords]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.Listeners"/>
+  </listeners>
+  <test parallel="methods" name="Page Object Model using By and TestNG Parallel Execution(failed)">
+    <classes>
+      <class name="quickstart.Tests.DemoTest">
+        <methods>
+          <include name="GoogleSearch_automationScript" invocation-numbers="0"/>
+          <include name="startTestSuite"/>
+        </methods>
+      </class> <!-- quickstart.Tests.DemoTest -->
+    </classes>
+  </test> <!-- Page Object Model using By and TestNG Parallel Execution(failed) -->
+</suite> <!-- Failed suite [Testing Google Search with different keywords] -->
